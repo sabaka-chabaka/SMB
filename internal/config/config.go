@@ -7,10 +7,7 @@ import (
 )
 
 type Config struct {
-	SMBAddress string `json:"smb_address"`
-	SMBPort    int    `json:"smb_port"`
-	SMBUser    string `json:"smb_user"`
-	SMBPass    string `json:"smb_pass"`
+	SMBPort string `json:"smb_port"`
 }
 
 var Configuration Config
